@@ -1,65 +1,73 @@
-Remove AutoPosts Userscript
+# Remove AutoPosts Userscript
 
+This userscript removes all auto posts on the [eRepublik](https://www.erepublik.com/en) website. It also works with dynamically loaded posts that appear after clicking the "Older posts" button.
 
-This userscript removes all auto posts on the eRepublik website. It also works with dynamically loaded posts that appear after clicking the "Older posts" button.
+---
 
-Table of Contents
-Description
+## Table of Contents
+1. [Description](#description)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Technical Details](#technical-details)
+5. [Author](#author)
+6. [Acknowledgments](#acknowledgments)
 
-Installation
+---
 
-Usage
+## Description
 
-Technical Details
+The **Remove AutoPosts** userscript is designed to automatically remove auto posts on the [eRepublik](https://www.erepublik.com/en) website. These posts are often auto-generated and can clutter the page, making it harder to read useful content.
 
-Author
+### Features:
+- Removes auto posts when the page loads.
+- Works with dynamically loaded posts after clicking the "Older posts" button.
+- Uses `MutationObserver` to track changes in the DOM.
 
-Description
-The Remove AutoPosts userscript is designed to automatically remove auto posts on the eRepublik website. These posts are often auto-generated and can clutter the page, making it harder to read useful content.
+---
 
-Features:
+## Installation
 
-Removes auto posts when the page loads.
+1. Install a userscript manager, such as:
+   - [Tampermonkey](https://www.tampermonkey.net/) (recommended)
+   - [Greasemonkey](https://www.greasespot.net/) (for Firefox)
+   - [Violentmonkey](https://violentmonkey.github.io/)
 
-Works with dynamically loaded posts after clicking the "Older posts" button.
+2. Go to the raw script link:  
+   [Install Remove AutoPosts](https://github.com/yourusername/remove-autoposts/raw/main/remove-autoposts.user.js)  
+   (Replace `yourusername` with your GitHub username or download the file manually.)
 
-Uses MutationObserver to track changes in the DOM.
+3. Confirm the installation in your userscript manager.
 
-Installation
-Install a userscript manager, such as:
+---
 
-Tampermonkey (recommended)
+## Usage
 
-Greasemonkey (for Firefox)
+1. Go to the [eRepublik](https://www.erepublik.com/en) website.
+2. The script will automatically remove all auto posts.
+3. If you click the "Older posts" button, new auto posts will also be removed.
 
-Violentmonkey
+---
 
-Go to the raw script link:
-Install Remove AutoPosts
-(Replace yourusername with your GitHub username or download the file manually.)
+## Technical Details
 
-Confirm the installation in your userscript manager.
+### How It Works
+- The script uses `MutationObserver` to track changes in the DOM.
+- After the page loads or when the "Older posts" button is clicked, it searches for all auto posts and removes them.
 
-Usage
-Go to the eRepublik website.
+### Dependencies
+- The script works on any modern browser with JavaScript support.
+- Requires a userscript manager (e.g., Tampermonkey).
 
-The script will automatically remove all auto posts.
+---
 
-If you click the "Older posts" button, new auto posts elements will also be removed.
+## Author
 
-Technical Details
-How It Works
-The script uses MutationObserver to track changes in the DOM.
+- GitHub: [StribozH](https://github.com/ruslan-00/publicScripts/)  
 
-Dependencies
-The script works on any modern browser with JavaScript support.
+---
 
-Requires a userscript manager (e.g., Tampermonkey).
+## Acknowledgments
 
-
-Author
-StribozH
-
-
-Acknowledgments
 If you find this script useful, you can support the author by giving a ⭐️ on GitHub or sharing it with others.
+
+---
