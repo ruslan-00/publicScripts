@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Remove AutoPosts
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/ruslan-00/publicScripts
 // @version      1.2
 // @description  Deletes autoPosts before they appear after clicking "Older posts"
 // @author       Stribozh
