@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Remove AutoPosts
 // @namespace    https://github.com/ruslan-00/publicScripts
-// @version      1.2
+// @version      1.4
 // @description  Deletes autoPosts before they appear after clicking "Older posts"
 // @author       Stribozh
 // @match        https://www.erepublik.com/*
@@ -31,11 +31,28 @@
 
     }
 
+    function observePostsWrapper() {
+        const postsWrapper = document.querySelector('.postsWrapper');
+        if (!postsWrapper) {
+            return;
+        }
+
+        const observer = new MutationObserver((mutationsList) => {
+            for (const mutation of mutationsList) {
+                if (mutation.type === 'childList' && mutation.addedNodes.length > 0) {
+                    removeAutoPosts();
+                }
+            }
+        });
+
+        observer.observe(postsWrapper, { childList: true, subtree: true });
+    }
+
     function interceptLoadMore() {
         const loadMoreButton = document.querySelector('button[ng-click="loadMore()"]');
         if (loadMoreButton) {
             loadMoreButton.addEventListener('click', (event) => {
-
+                
                 event.stopImmediatePropagation();
                 event.preventDefault();
 
@@ -45,22 +62,7 @@
                     scope.loadMore();
                 }
 
-                const observer = new MutationObserver((mutationsList) => {
-                    for (const mutation of mutationsList) {
-                        if (mutation.type === 'childList' && mutation.addedNodes.length > 0) {
-                            removeAutoPosts();
-                        }
-                    }
-                });
-
-                const postsWrapper = document.querySelector('.postsWrapper');
-                if (postsWrapper) {
-                    observer.observe(postsWrapper, { childList: true, subtree: true });
-                }
-
-                setTimeout(() => {
-                    observer.disconnect();
-                }, 2000);
+                observePostsWrapper();
             });
         }
     }
@@ -68,5 +70,6 @@
     window.addEventListener('load', () => {
         removeAutoPosts();
         interceptLoadMore();
+        observePostsWrapper();
     });
 })();
