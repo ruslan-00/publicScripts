@@ -6,10 +6,14 @@
 
 ## 🚀 Features
 
-✅ Real-time tracking of reward thieves\
+✅ Real-time tracking of reward іstealers. The search is carried out in no more than two divisions at a time (recommended in one) due to the large number of battles\
 ✅ Storage of offender information\
 ✅ Recording statistics of stolen and returned rewards\
 ✅ Intuitive user interface
+
+## 💰 Pricing
+
+The script is available for free for the first week. After that, a monthly subscription is required, payable in in-game currency.
 
 ## 📦 Installation
 
@@ -28,9 +32,6 @@
 
 <img src="https://github.com/ruslan-00/publicScripts/blob/main/HunterOfStealers/scr/scr1.jpg" alt="App Screenshot" width="300"> <img src="https://github.com/ruslan-00/publicScripts/blob/main/HunterOfStealers/scr/scr2.jpg" alt="App Screenshot" width="300"> <img src="https://github.com/ruslan-00/publicScripts/blob/main/HunterOfStealers/scr/scr3.jpg" alt="App Screenshot" width="300">
 
-## 💰 Pricing
-
-The script is available for free for the first week. After that, a monthly subscription is required, payable in in-game currency.
 
 
 ## 🤝 Contribution
