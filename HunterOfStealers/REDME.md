@@ -26,7 +26,9 @@
 
 ## 📸 Screenshots
 
-*(Add screenshots of your application here in the format `![Screen 1](https://github.com/ruslan-00/publicScripts/blob/main/HunterOfStealers/scr/scr1.jpg)`) *
+[Screen 1](https://github.com/ruslan-00/publicScripts/blob/main/HunterOfStealers/scr/scr1.jpg)
+[Screen 2](https://github.com/ruslan-00/publicScripts/blob/main/HunterOfStealers/scr/scr2.jpg)
+[Screen 3](https://github.com/ruslan-00/publicScripts/blob/main/HunterOfStealers/scr/scr3.jpg)
 
 ## 💰 Pricing
 
