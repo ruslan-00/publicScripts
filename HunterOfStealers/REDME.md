@@ -19,7 +19,7 @@
    - [Violentmonkey](https://violentmonkey.github.io/)
 
 2. Go to the raw script link:  
-   [Install Hunter Of Stealers](https://github.com/ruslan-00/publicScripts/raw/refs/heads/main/HunterofStealers/HunterOfStealers.user.js)  
+   [Install Hunter Of Stealers](https://github.com/ruslan-00/publicScripts/raw/refs/heads/main/HunterOfStealers/HunterOfStealers.user.js)  
 
 3. Confirm the installation in your userscript manager.
 
