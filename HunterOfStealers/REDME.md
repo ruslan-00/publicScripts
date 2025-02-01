@@ -11,7 +11,7 @@
 ✅ Recording statistics of stolen and returned rewards\
 ✅ Intuitive user interface
 
-📦 Installation
+## 📦 Installation
 
 1. Install a userscript manager, such as:
    - [Tampermonkey](https://www.tampermonkey.net/) (recommended)
@@ -26,9 +26,7 @@
 
 ## 📸 Screenshots
 
-[Screen 1](https://github.com/ruslan-00/publicScripts/blob/main/HunterOfStealers/scr/scr1.jpg)
-[Screen 2](https://github.com/ruslan-00/publicScripts/blob/main/HunterOfStealers/scr/scr2.jpg)
-[Screen 3](https://github.com/ruslan-00/publicScripts/blob/main/HunterOfStealers/scr/scr3.jpg)
+<img src="https://github.com/ruslan-00/publicScripts/blob/main/HunterOfStealers/scr/scr1.jpg" alt="App Screenshot" width="300"> <img src="https://github.com/ruslan-00/publicScripts/blob/main/HunterOfStealers/scr/scr2.jpg" alt="App Screenshot" width="300"> <img src="https://github.com/ruslan-00/publicScripts/blob/main/HunterOfStealers/scr/scr3.jpg" alt="App Screenshot" width="300">
 
 ## 💰 Pricing
 
@@ -37,4 +35,4 @@ The script is available for free for the first week. After that, a monthly subsc
 
 ## 🤝 Contribution
 
-Anyone can contribute to improving the project. Create an **issue** or submit a **messenge in game**.
+Anyone can contribute to improving the project. Create an **issue** or submit a [**messenge in game**](https://www.erepublik.com/en/main/messages-compose/7963530).
